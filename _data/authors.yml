@@ -1,0 +1,35 @@
+# Other author names, e.g. the group as an author for the research pages
+group:
+  name             : "Wave Physics Group"
+  avatar           : /assets/images/audiowaves.png # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "Acoustic, electromagnetic, flow instability waves and more"
+  location         : "Beijing, China"
+  email            :
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:b.lyu@pku.edu.cn"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      # url: "https://your-website.com"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/Ben19621014"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      # url: "https://facebook.com/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/benshuailyu"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      # url: "https://instagram.com/"
+    - label: "Google Scholar"
+      icon: "fa fa-graduation-cap"
+      url: "https://scholar.google.co.uk/citations?user=Ws2SQlIAAAAJ&hl=en"
+    - label: "ORCID"
+      icon: "fab fa-orcid"
+      url: "http://orcid.org/0000-0002-8751-7875"
+
+
+

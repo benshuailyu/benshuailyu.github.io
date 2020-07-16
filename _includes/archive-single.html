@@ -12,7 +12,7 @@
 
 <div class="{{ include.type | default: "list" }}__item">
   <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    {% if include.type == "grid" and teaser %}
+    {% if include.type == "grid" or teaser %}
       <div class="archive__item-teaser">
         <img src="{{ teaser | relative_url }}" alt="">
       </div>
@@ -24,9 +24,41 @@
         <a href="{{ post.url | relative_url }}" rel="permalink">{{ title }}</a>
       {% endif %}
     </h2>
-    {% if post.read_time %}
-      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
+
+    <!--- Add a switch "show_data" to control the addition of update time on the line of read time--->
+    {% if post.read_time or post.date_on_archive %}
+    <p class="page__meta">
+    {%- if post.date_on_archive -%}
+    <i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ post. date | date: "%B %d %Y" }}&emsp;
+    {%- endif -%}
+    {%- if post.read_time -%}
+    <i class="far fa-clock" aria-hidden="true"></i> {% include read-time.html %}
     {% endif %}
-    {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
+    </p>
+    {%- endif -%}
+
+    <!--- Add customized info below archive title according to the collection types --->
+    {% if post.collection == 'teaching' %}
+    <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
+    {% elsif post.collection == 'publications' %}
+    <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
+    {% elsif post.collection == 'research' %}
+    <!--- do nothing --->
+    {% endif %}
+    <!---
+    <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
+    --->
+
+    {% if post.excerpt %}
+    <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate:160 }}</p>
+    {% endif %}
+
+    {% if post.citation and post.paperurl %}
+    <p>Recommended citation: {{ post.citation }} <a href="{{ post.paperurl }}"><u>{{ post.paperurl }}</u></a></p>
+    {% elsif post.citation %}
+    <p>Recommended citation: {{ post.citation }} </p>
+    {% elsif post.paperurl %}
+    <p>Download <a href=" {{ post.paperurl }} "><u>here</u></a></p>
+    {% endif %}
   </article>
 </div>

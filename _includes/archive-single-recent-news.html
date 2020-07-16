@@ -1,0 +1,18 @@
+<div class="list__item">
+  <a class="news__title" href="{{ post.url | relative_url }}" rel="permalink">{{ post.title }}</a>
+  {% if post.date_on_archive or post.read_time %}
+  <p class="page__meta">
+  {%- if post.date_on_archive -%}
+  <i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ post. date | date: "%B %d %Y" }}&emsp;
+  {%- endif -%}
+  {%- if post.read_time -%}
+  <i class="far fa-clock" aria-hidden="true"></i> {% include read-time.html %}
+  {%- endif -%}
+  </p>
+  {% endif %}
+  {% if post.excerpt %}
+  <div class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate:160 }}</div>
+  <p></p>
+  {% endif %} 
+</div>
+
