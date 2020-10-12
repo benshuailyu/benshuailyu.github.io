@@ -1,7 +1,7 @@
 <div class="entry">
-  <img class="entry-imag" src="{{ post.profile }}"> 
+  <img class="entry-imag" src="{{ post.profile | relative_url }}"> 
   <div class="entry-text">
-    <p> <a href="{{ post.url }}" class="bold">{{ post.name }}</a> <br/>
+    <p> <a href="{{ post.url | relative_url }}" class="bold">{{ post.name }}</a> <br/>
     {{ post.position }}<br/>
     College of Engineering<br/>
     Office: {{ post.office }}<br/>

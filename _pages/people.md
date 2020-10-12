@@ -14,9 +14,9 @@ toc: true
 ## Current
 <h3 class="role-title"> Principle Investigator</h3>
 <div class="entry">
-  <img class="entry-imag" src="/assets/images/profile.jpg"> 
+  <img class="entry-imag" src="{{ site.baseurl }}/assets/images/profile.jpg"> 
   <div class="entry-text">
-    <p> <a href="/cv/" style="font-weight:bold;">Benshuai Lyu, PhD</a><br/>
+    <p> <a href="{{ site.baseurl }}/cv/" style="font-weight:bold;">Benshuai Lyu, PhD</a><br/>
     Assitant Professor<br/>
     College of Engineering<br/>
     Office: 904 Kezhen Wang Blg<br/>

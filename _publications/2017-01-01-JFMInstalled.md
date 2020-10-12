@@ -9,5 +9,4 @@ paperurl: '/assets/files/JFMInstalled.pdf'
 ---
 
 This paper develops a hybrid model for installed jet noise prediction
-[Download paper here](/assets/files/JFMInstalled.pdf)
-
+[Download paper here]({{ page.paperurl | relative_url }})

@@ -8,5 +8,5 @@ venue: 'Renewable Energy'
 paperurl: '/assets/files/REModel.pdf'
 ---
 This paper combines our earlier TE noise prediction model with more sophisticated wall pressure spectrum under the boundary layer
-[Download paper here](/assets/files/REModel.pdf)
-
+[Download paper here]({{ page.paperurl | relative_url }})
+                                                                                                                       

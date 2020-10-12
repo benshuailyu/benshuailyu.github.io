@@ -8,5 +8,4 @@ venue: "Journal of Sound and Vibration"
 paperurl: '/assets/files/JSVOptimal.pdf'
 ---
 Using asymptotic analysis, this paper explores the optiomal serrations shape to reduce LE and TE noise.
-[Download paper here](/assets/files/JSVOptimal.pdf)
-
+[Download paper here]({{ page.paperurl | relative_url }})
