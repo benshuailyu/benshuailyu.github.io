@@ -2,7 +2,6 @@
 title: "1A C++"
 collection: teaching
 type: "Demonstration"
-permalink: /teaching/2015-09-01
 venue: "University of Cambridge, Department of Engineering "
 date: 2015-09-01
 location: "Cambridge, UK"
