@@ -1,7 +1,7 @@
 # Other author names, e.g. the group as an author for the research pages
 group:
   name             : "Wave Physics Group"
-  avatar           : /assets/images/audiowaves.png # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : /assets/images/WavePhysicsGroup.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Acoustic, electromagnetic, flow instability waves and more"
   location         : "Beijing, China"
   email            :
