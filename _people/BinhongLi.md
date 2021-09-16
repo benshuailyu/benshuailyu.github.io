@@ -3,14 +3,15 @@
 name: "Binhong Li"
 title: "Binhong Li"
 profile: /assets/images/BinhongLi.jpg
-position: "Undergraduate Student"
+position: "PhD Student"
 email: "lbh0902@pku.edu.cn"
 office: 904 Kezhen Wang Blg
-duration: "2020 - Present"
+duration: "2021 - Present"
 status: Current
-date: 2020-10-28
+date: 2021-09-13
 # Leave the following blank
 jobnext: 
 ---
 
-Mr Li is a current undergraduate researcher working in this group.
+Mr Li started to work as a PhD candidate in September 2021. His project is on
+supersonic jet screech.

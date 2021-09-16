@@ -1,8 +1,8 @@
 ---
-title: "How to write a paper in science and engineering"
+title: "Introduction to Aeronautics and Astronautics"
 collection: teaching
 type: "Lecturing"
-date: 2020-09-10
+date: 2021-03-10
 venue: "Peking University, College of Engineering"
 location: "Beijing, China"
 ---
