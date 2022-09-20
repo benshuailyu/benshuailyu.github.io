@@ -8,9 +8,9 @@ email: "zhangpue@pku.edu.cn"
 office: 904 Kezhen Wang Blg
 duration: "2022 - Present"
 status: Current
-date: 2022-07-21
+date: 2022-09-20
 # Leave the following blank
 jobnext: 
 ---
 
-Mr Zhang is going to work as a PhD candidate in September 2022. 
+Mr Zhang joined the group as an undergraduate in September 2021 and later as a PhD candidate in September 2022. 

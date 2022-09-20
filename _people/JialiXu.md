@@ -8,9 +8,9 @@ email: "TBD"
 office: 904 Kezhen Wang Blg
 duration: "2022 - Present"
 status: Current
-date: 2022-07-21
+date: 2022-09-20
 # Leave the following blank
 jobnext: 
 ---
 
-Ms Xu is going to work as a PhD candidate in September 2022. 
+Ms Xu joined the group as a PhD candidate in September 2022. 
