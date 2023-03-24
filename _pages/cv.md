@@ -9,7 +9,7 @@ toc: true
 * **Assistant Professor**, *05/2020 - Present*
   * College of Engineering, Peking University
  
-* **Research Associate**, *12/2017 - 03/202*
+* **Research Associate**, *12/2017 - 03/2020*
   * Department of Applied Mathematics and Theoretical Physics (DAMTP),  University of Cambridge
   * Research on leading-edge and trailing-edge noise, fluid instability
 
