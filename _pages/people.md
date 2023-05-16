@@ -38,8 +38,8 @@ if yes put a h3 title --->
   {% elsif post.position == "Undergraduate Student" %}
     {% assign currentUndergraduate = true %}
   {% endif %}
-{% elsif post.status == "Previous" %}
-  {% assign previousStudent = true %}
+{% elsif post.status == "Former" %}
+  {% assign formerStudent = true %}
 {% endif %}
 {% endfor %}
 
@@ -81,15 +81,15 @@ if yes put a h3 title --->
 {% endif %}
 {% endfor %}
 
-<!--- put a Category Past first only if has past members then enumerate---!>
-{% if previousStudent == true %}
+<!--- put a Category Past first only if has past members then enumerate --->
+{% if formerStudent == true %}
 ## Past
 {% endif %}
 
 {% for post in site.people%}
-{% if post.status=="Previous" %}
+{% if post.status=="Former" %}
   <div>
-  <span style="font-weight:bold;">{{ post.name }}</span>:  {{ post.position }} between {{ post.duration}}, now at {{ post.jobnext | default: "TBD" }}. 
+  <span style="font-weight:bold;">{{ post.name }}</span>:  {{ post.position }} between {{ post.duration}}, now work as {{ post.jobnext | default: "TBD" }}. 
   </div>
 {% endif %}
 {% endfor %}
