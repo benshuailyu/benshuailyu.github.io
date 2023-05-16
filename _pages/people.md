@@ -25,19 +25,31 @@ toc: true
 </div>
 
 
-<!--- Determine whether have at least one member in each student category,
+<!--- Determine whether have at least one member in each position category,
 if yes put a h3 title --->
 {% for post in site.people %}
 {% if post.status == "Current" %}
-  {% if post.position == "PhD Student" %}
+  {% if post.position == "Group Administrator" %}
+    {% assign currentGA = true %}
+  {% elsif post.position == "PhD Student" %}
     {% assign currentPhD = true %}
   {% elsif post.position == "Master Student" %}
     {% assign currentMaster = true %}
   {% elsif post.position == "Undergraduate Student" %}
     {% assign currentUndergraduate = true %}
   {% endif %}
-{% elsif post.status == "Current" %}
+{% elsif post.status == "Previous" %}
   {% assign previousStudent = true %}
+{% endif %}
+{% endfor %}
+
+<!--- if any position has at least one member put a h3 title and emnurate--->
+{% if currentGA == true %}
+<h3 class="role-title">Group Administrator</h3>
+{% endif %}
+{% for post in site.people%}
+{% if post.status == "Current" and post.position == "Group Administrator" %}
+{% include archive-single-people.html %}
 {% endif %}
 {% endfor %}
 
@@ -69,6 +81,7 @@ if yes put a h3 title --->
 {% endif %}
 {% endfor %}
 
+<!--- put a Category Past first only if has past members then enumerate---!>
 {% if previousStudent == true %}
 ## Past
 {% endif %}
