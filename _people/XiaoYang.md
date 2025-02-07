@@ -3,7 +3,7 @@
 name: "Xiao Yang"
 title: "Xiao Yang"
 profile: /assets/images/XiaoYang.jpg
-position: "Undergraduate Student"
+position: "Master Student"
 email: "2000011073@stu.pku.edu.cn"
 office: 904 Kezhen Wang Blg
 duration: "2023 - Present"
@@ -13,4 +13,4 @@ date: 2023-09-13
 jobnext: 
 ---
 
-Mr Yang joined our group as an undergraduate student in September 2023. 
+Mr Yang joined our group first as an undergraduate student in 2023 and then a Master student in September 2024. 

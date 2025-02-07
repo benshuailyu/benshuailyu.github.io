@@ -3,7 +3,7 @@
 name: "Wenchuan Nie"
 title: "Wenchuan Nie"
 profile: /assets/images/WenchuanNie.jpg
-position: "Undergraduate Student"
+position: "Master Student"
 email: "2000011091@stu.pku.edu.cn"
 office: 904 Kezhen Wang Blg
 duration: "2023 - Present"
@@ -13,4 +13,4 @@ date: 2023-09-13
 jobnext: 
 ---
 
-Mr Nie joined our group as an undergraduate student in September 2023. 
+Mr Nie joined our group first as an undergraduate in 2023 and then Master student in September 2024. 
