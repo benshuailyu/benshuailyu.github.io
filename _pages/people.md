@@ -83,7 +83,7 @@ if yes put a h3 title --->
 
 <!--- put a Category Past first only if has past members then enumerate --->
 {% if formerStudent == true %}
-## Past
+## Former
 {% endif %}
 
 {% for post in site.people%}
