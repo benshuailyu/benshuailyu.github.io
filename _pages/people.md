@@ -19,7 +19,7 @@ toc: true
     <p> <a href="{{ site.baseurl }}/cv/" style="font-weight:bold;">Benshuai Lyu, PhD</a><br/>
     Assitant Professor<br/>
     College of Engineering<br/>
-    Office: 904 Kezhen Wang Blg<br/>
+    Office: 3043 Xin Ao Engineering Blg<br/>
     Email: b.lyu@pku.edu.cn</p>
   </div>
 </div>
@@ -29,7 +29,9 @@ toc: true
 if yes put a h3 title --->
 {% for post in site.people %}
 {% if post.status == "Current" %}
-  {% if post.position == "Group Administrator" %}
+  {% if post.position == "Postdoctoral Scholar" %}
+    {% assign currentPostdoc = true %}
+  {% elsif post.position == "Group Administrator" %}
     {% assign currentGA = true %}
   {% elsif post.position == "PhD Student" %}
     {% assign currentPhD = true %}
@@ -39,7 +41,7 @@ if yes put a h3 title --->
     {% assign currentUndergraduate = true %}
   {% endif %}
 {% elsif post.status == "Former" %}
-  {% assign formerStudent = true %}
+  {% assign formerGroupMember= true %}
 {% endif %}
 {% endfor %}
 
@@ -49,6 +51,16 @@ if yes put a h3 title --->
 {% endif %}
 {% for post in site.people%}
 {% if post.status == "Current" and post.position == "Group Administrator" %}
+{% include archive-single-people.html %}
+{% endif %}
+{% endfor %}
+
+
+{% if currentPostdoc== true %}
+<h3 class="role-title">Postdoctoral Scholars</h3>
+{% endif %}
+{% for post in site.people%}
+{% if post.status == "Current" and post.position == "Postdoctoral Scholar" %}
 {% include archive-single-people.html %}
 {% endif %}
 {% endfor %}
@@ -82,7 +94,7 @@ if yes put a h3 title --->
 {% endfor %}
 
 <!--- put a Category Past first only if has past members then enumerate --->
-{% if formerStudent == true %}
+{% if formerGroupMember == true %}
 ## Former
 {% endif %}
 
