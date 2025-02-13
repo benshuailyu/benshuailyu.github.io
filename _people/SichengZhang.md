@@ -5,7 +5,7 @@ title: "Sicheng Zhang"
 profile: /assets/images/SichengZhang.png
 position: "PhD Student"
 email: "zhangpue@pku.edu.cn"
-office: 904 Kezhen Wang Blg
+office: Xin Ao Enginnering Blg
 duration: "2022 - Present"
 status: Current
 date: 2022-09-20

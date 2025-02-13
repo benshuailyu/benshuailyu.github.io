@@ -5,7 +5,7 @@ title: "Haopeng Tian"
 profile: /assets/images/HaoPengTian.jpg
 position: "PhD Student"
 email: "hptian@pku.edu.cn"
-office: 904 Kezhen Wang Blg
+office: Xin Ao Enginnering Blg
 duration: "2020 - Present"
 status: Current
 date: 2020-09-21

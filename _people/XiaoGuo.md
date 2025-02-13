@@ -1,10 +1,10 @@
 ---
 # Fill in the your own information and do NOT change the format
-name: "Xiao Yang"
-title: "Xiao Yang"
-profile: /assets/images/XiaoYang.jpg
+name: "Xia Guo"
+title: "Xia Guo"
+profile: /assets/images/XiaGuo.jpg
 position: "Master Student"
-email: "2401213259@stu.pku.edu.cn"
+email: "2401213183@stu.pku.edu.cn"
 office: Xin Ao Enginnering Blg
 duration: "2023 - Present"
 status: Current
@@ -13,4 +13,4 @@ date: 2024-09-13
 jobnext: 
 ---
 
-Mr Yang joined our group first as an undergraduate student in 2023 and then a Master student in September 2024. 
+Ms Guo joined our group first as an undergraduate student in 2023 and then a Master student in September 2024. 

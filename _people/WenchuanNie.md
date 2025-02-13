@@ -5,7 +5,7 @@ title: "Wenchuan Nie"
 profile: /assets/images/WenchuanNie.jpg
 position: "Master Student"
 email: "2000011091@stu.pku.edu.cn"
-office: 904 Kezhen Wang Blg
+office: Xin Ao Enginnering Blg
 duration: "2023 - Present"
 status: Current
 date: 2023-09-13

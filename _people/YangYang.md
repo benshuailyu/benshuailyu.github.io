@@ -5,7 +5,7 @@ title: "Yang Yang"
 profile: /assets/images/YangYang.jpg
 Fosition: "Undergraduate research student"
 email: "TBD"
-office: 904 Kezhen Wang Blg
+office: Xin Ao Enginnering Blg
 duration: "2021 - 2022"
 status: "Former" 
 date: 2022-11-13

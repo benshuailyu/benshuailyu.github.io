@@ -5,12 +5,12 @@ title: "Shuhong Wang"
 profile: /assets/images/ShuhongWang.jpg
 position: "Group Administrator"
 email: "2206795001@pku.edu.cn"
-office: 904 Kezhen Wang Blg
+office: Xin Ao Enginnering Blg
 duration: "2022 - Present"
-status: Current
+status: Former 
 date: 2022-06-01
 # Leave the following blank
-jobnext: 
+jobnext: TBD
 ---
 
 Ms Wang joined the group as a group administrator in June 2022. 
