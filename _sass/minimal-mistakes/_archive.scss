@@ -89,7 +89,7 @@
   position: relative;
   border-radius: $border-radius;
   overflow: hidden;
-
+  margin-bottom: -2em;
   img {
     width: 100%;
   }
@@ -340,7 +340,7 @@
     }
 
     .archive__item-teaser {
-      margin-bottom: 2em;
+      margin-bottom:  2em;
     }
 
     a.btn::before {
@@ -384,7 +384,7 @@
     }
 
     .archive__item-teaser {
-      margin-bottom: 2em;
+      margin-bottom: -10em;
     }
 
     a.btn::before {
