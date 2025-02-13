@@ -16,24 +16,25 @@ toc: true
 Welcome to the **Wave Physics Group** at Peking University.
 ## Who we are?
 
-We are an interdisciplinary group working at the frontier of fluid mechanics, acoustics and physics.
+We are an interdisciplinary group working at the frontier of fluid mechanics, acoustics and machine learning.
 
 ## What we do?
 We are interested in understanding the physics of waves in various
-fields, such as acoustics, hydrodynamic instabilities and electrodynamics. Our
+fields, such as acoustics, hydrodynamic instabilities and electrodynamics using
+mathematics, computational simulations and machine learning. Our
 ongoing projects range from jet aeroacoustics, jet instability, aerofoil
 aeroacoustics to acoustic metamaterials. You can find more about our research
 from the Research and Publications pages. 
 
 ## Come and join!
 We seek highly motivated graduate students with a solid background in fluid mechanics,
-physics, acoustics or applied mathematics to join us. Undergraduate students who are keen to 
+physics, acoustics, machine learning or applied mathematics to join us. Undergraduate students who are keen to 
 embark on research are warmly welcome.
 
 Various scholarships are available. Prospective students outside China can be
 supported to apply for the China Government Scholarship, which covers both
 tuition and maintenance fees. We seek postdocs with a strong expertise in
-aeroacoustics and fluid mechanics to work on jet noise and aerofoil noise. If
+aeroacoustics, fluid mechanics and physics to work on jet noise, aerofoil noise and acoustic materials. If
 you would like to know more, please [get in touch](mailto:b.lyu@pku.edu.cn){: .btn .btn--success}.
 
 
