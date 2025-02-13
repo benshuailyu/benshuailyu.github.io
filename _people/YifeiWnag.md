@@ -5,7 +5,7 @@ title: "Yifei Wang"
 profile: /assets/images/YifeiWang.jpg
 position: "PhD Student"
 email: "2401111717@stu.pku.edu.cn"
-office: Xin Ao Enginnering Blg 
+office: 3050 Xin Ao Engineering Blg 
 duration: "2024 - Present"
 status: Current
 date: 2024-09-13

@@ -5,7 +5,7 @@ title: "Shuhong Wang"
 profile: /assets/images/ShuhongWang.jpg
 position: "Group Administrator"
 email: "2206795001@pku.edu.cn"
-office: Xin Ao Enginnering Blg
+office: 3050 Xin Ao Engineering Blg
 duration: "2022 - Present"
 status: Former 
 date: 2022-06-01

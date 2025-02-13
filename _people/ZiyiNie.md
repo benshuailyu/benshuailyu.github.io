@@ -5,7 +5,7 @@ title: "Ziyi Nie"
 profile: /assets/images/ZiyiNie.jpg
 position: "Undergraduate Student"
 email: "2100011065@stu.pku.edu.cn"
-office: Xin Ao Enginnering Blg
+office: 3050 Xin Ao Engineering Blg
 duration: "2024 - Present"
 status: "Current" 
 date: 2024-09-10

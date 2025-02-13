@@ -5,7 +5,7 @@ title: "Rui Bo"
 profile: /assets/images/RuiBo.jpg
 position: "Undergraduate research student"
 email: "TBD"
-office: Xin Ao Enginnering Blg
+office: 3050 Xin Ao Engineering Blg
 duration: "2021 - 2022"
 status: "Former" 
 date: 2021-09-10

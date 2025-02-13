@@ -5,7 +5,7 @@ title: "Binhong Li"
 profile: /assets/images/BinhongLi.jpg
 position: "PhD Student"
 email: "lbh0902@pku.edu.cn"
-office: Xin Ao Enginnering Blg
+office: 3050 Xin Ao Engineering Blg
 duration: "2021 - Present"
 status: Current
 date: 2021-09-13

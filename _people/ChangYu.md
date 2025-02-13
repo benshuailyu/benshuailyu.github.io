@@ -5,7 +5,7 @@ title: "Chang Yu"
 profile: /assets/images/ChangYu.png
 position: "Undergraduate Student"
 email: "2000011171@stu.pku.edu.cn"
-office: Xin Ao Enginnering Blg
+office: 3050 Xin Ao Engineering Blg
 duration: "2023 - Present"
 status: Former_Masked 
 date: 2023-09-13

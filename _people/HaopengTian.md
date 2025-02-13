@@ -5,7 +5,7 @@ title: "Haopeng Tian"
 profile: /assets/images/HaoPengTian.jpg
 position: "PhD Student"
 email: "hptian@pku.edu.cn"
-office: Xin Ao Enginnering Blg
+office: 3050 Xin Ao Engineering Blg
 duration: "2020 - Present"
 status: Current
 date: 2020-09-21

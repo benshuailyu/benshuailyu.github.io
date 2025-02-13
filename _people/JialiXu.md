@@ -5,7 +5,7 @@ title: "Jiali Xu"
 profile: /assets/images/JialiXu.jpg
 position: "PhD Student"
 email: "TBD"
-office: Xin Ao Enginnering Blg
+office: 3050 Xin Ao Engineering Blg
 duration: "2022 - Present"
 status: Current
 date: 2022-09-20
